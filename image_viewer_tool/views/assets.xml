@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="assets_editor" inherit_id="web.assets_backend" name="Image Viewer Tool">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" href="/image_viewer_tool/static/src/css/image_preview_box.css"/>
+                <script type="text/javascript" src="/image_viewer_tool/static/src/js/image_viewer.js"/>
+            </xpath>
+        </template>
+    </data>
+</odoo>

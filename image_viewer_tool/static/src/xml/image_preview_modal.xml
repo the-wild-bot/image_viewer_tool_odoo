@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+
+    <t t-name="imagePreviewModal">
+        <div id="myModal" class="image-modal-preview">
+            <span class="image-preview-stop">x</span>
+            <img class="image-modal-preview-content" t-att-src="url" />
+        </div>
+    </t>
+
+</template>
